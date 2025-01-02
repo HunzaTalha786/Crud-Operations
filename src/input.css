@@ -7,8 +7,7 @@ body {
     font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
-    /* background-color: #f8f9fa; */
-    background-color: #2f2844;
+    background-color: #7749F8;
     box-sizing: border-box;
     height: 100vh;
     display: flex;
@@ -29,7 +28,7 @@ body {
 
 .container {
     max-width: 350px;
-    box-shadow: 0 4px 8px #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);; 
     text-align: center;
     animation: slideInUp 1s ease;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
@@ -58,7 +57,7 @@ button {
 }
 
 button:hover {
-    background-color: #423d52;
+    background-color: #3c14aa;;
     transform: scale(1.05);
 }
 

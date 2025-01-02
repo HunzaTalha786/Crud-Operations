@@ -674,14 +674,23 @@ video {
   border-bottom-color: rgb(221 221 221 / var(--tw-border-opacity, 1));
 }
 
-.bg-\[\#2f2844\] {
+.bg-\[\#7749f8\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(47 40 68 / var(--tw-bg-opacity, 1));
+  background-color: rgb(119 73 248 / var(--tw-bg-opacity, 1));
 }
 
-.bg-slate-500 {
+.bg-\[white\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity, 1));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#7749f8gi\] {
+  background-color: #7749f8gi;
 }
 
 .p-\[10px\] {
@@ -712,12 +721,12 @@ video {
   padding-bottom: 20px;
 }
 
-.text-left {
-  text-align: left;
-}
-
 .text-center {
   text-align: center;
+}
+
+.text-\[1\.3rem\] {
+  font-size: 1.3rem;
 }
 
 .text-\[14px\] {
@@ -740,9 +749,9 @@ video {
   font-weight: 600;
 }
 
-.text-\[\#ddd\] {
+.text-\[\#7749f8\] {
   --tw-text-opacity: 1;
-  color: rgb(221 221 221 / var(--tw-text-opacity, 1));
+  color: rgb(119 73 248 / var(--tw-text-opacity, 1));
 }
 
 .text-white {
@@ -758,8 +767,7 @@ body {
   font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
-  /* background-color: #f8f9fa; */
-  background-color: #2f2844;
+  background-color: #7749F8;
   box-sizing: border-box;
   height: 100vh;
   display: flex;
@@ -780,7 +788,7 @@ body {
 
 .container {
   max-width: 350px;
-  box-shadow: 0 4px 8px #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   animation: slideInUp 1s ease;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
@@ -809,7 +817,7 @@ button {
 }
 
 button:hover {
-  background-color: #423d52;
+  background-color: #3c14aa;
   transform: scale(1.05);
 }
 
